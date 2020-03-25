@@ -1,0 +1,20 @@
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+      - '27005:27005/udp'
+      - '27015:27015/udp'
+      - '27006:27006/tcp'
+      - '27015:27015/tcp'
+    volumes:
+      - ./server.cfg:/home/steam/gmodds/garrysmod/cfg/server.cfg
+  environment:
+      PORT: '27015' 
+      MAXPLAYERS: '16'
+      G_HOSTNAME: 'Garry\'s Mod'
+      GAMEMODE: "terrortown"
+      MAP: 'gm_construct'
+      HOST_WORKSHOP_COLLECTION: ''
+      AUTHKEY: ''
+      ARGS: ''
