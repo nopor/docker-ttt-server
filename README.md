@@ -1,8 +1,8 @@
 # docker-ttt-server
 
-1. [Steam Workshop](https://steamcommunity.com/workshop/browse/?appid=4000&searchtext=ttt&childpublishedfileid=0&section=collections)
+1. Get a CollectionID from the [Steam Workshop](https://steamcommunity.com/workshop/browse/?appid=4000&searchtext=ttt&childpublishedfileid=0&section=collections)
 2. Get an [Steam API Key](https://steamcommunity.com/dev/apikey)
-3. Set up environment variables:
+3. Set up environment variables. The available variables are:
 
 ```docker
 PORT = "27015"
@@ -10,7 +10,7 @@ MAXPLAYERS = "16"
 G_HOSTNAME = "Garry's Mod"
 GAMEMODE = "terrortown"
 MAP = "gm_construct"
-PASSWORD = ''
+PASSWORD = ""
 HOST_WORKSHOP_COLLECTION = ""
 AUTHKEY = ""
 ARGS = "" // can be used for any additional parameter, e.g. "+rcon_password xxxx" (see example)
