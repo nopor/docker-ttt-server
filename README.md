@@ -40,3 +40,13 @@ docker run -t -d -p 27005:27005/udp \
 --env AUTHKEY='XXXX' \
 --env ARGS='+rcon_password xxxx'
 ```
+
+## Docker Compose
+
+Alternatively use:
+
+```bash
+docker-compose up
+```
+
+The docker-compose.yaml contains the example from above. Modify it in order to start the container with another configuration.
