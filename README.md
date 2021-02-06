@@ -1,7 +1,7 @@
 # docker-ttt-server
 
 1. Get a CollectionID from the [Steam Workshop](https://steamcommunity.com/workshop/browse/?appid=4000&searchtext=ttt&childpublishedfileid=0&section=collections)
-2. Get an [Steam API Key](https://steamcommunity.com/dev/apikey)
+2. Get a [Steam API Key](https://steamcommunity.com/dev/apikey)
 3. Set up environment variables. The available variables are:
 
 ```docker
